@@ -46,6 +46,24 @@
         height: 80px;
         width: 200px;
       }
+      .standard-logo {
+        //@media only screen and (max-width: 1199px) {
+        //  display: none;
+        //}
+        img {
+          @include transition;
+        }
+      }
+  
+      .sticky-logo {
+        display: none;
+        img {
+          @include transition;
+        }
+      }
+      .retina-logo {
+        display: none;
+      }
     }
 
     .header-area-wrapper {

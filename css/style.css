@@ -3849,6 +3849,18 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 200px;
   }
 }
+.header-area.style-2 .logo .standard-logo img {
+  transition: all 0.5s ease-out;
+}
+.header-area.style-2 .logo .sticky-logo {
+  display: none;
+}
+.header-area.style-2 .logo .sticky-logo img {
+  transition: all 0.5s ease-out;
+}
+.header-area.style-2 .logo .retina-logo {
+  display: none;
+}
 .header-area.style-2 .header-area-wrapper {
   display: flex;
   align-items: center;
