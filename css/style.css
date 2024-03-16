@@ -9602,7 +9602,6 @@ ul.children {
   }
 }
 .comment-respond p {
-  display: inline-flex;
   margin: 0;
 }
 .comment-respond .contacts-email,
