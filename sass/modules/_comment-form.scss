@@ -53,6 +53,10 @@
   .contacts-message {
     margin-bottom: 33px;
     position: relative;
+    display: inline-flex;
+    br{
+      display: none;
+    }
 
     label {
       position: absolute;
