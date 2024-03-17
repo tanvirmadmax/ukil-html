@@ -202,6 +202,9 @@
       position: relative;
       z-index: 2;
 
+      @include lg{
+        padding: 53px 0 60px 70px;
+      }
       @include rmaxwd(767) {
         padding: 40px;
         margin-left: 0 !important;

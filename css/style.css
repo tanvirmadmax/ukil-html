@@ -7413,6 +7413,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 0;
   transition: all 0.5s ease-out;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .price-card {
+    padding: 40px 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .price-card {
+    padding: 40px 30px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .price-card {
     padding: 50px 40px;
@@ -9748,6 +9758,11 @@ ul.children {
   position: relative;
   z-index: 2;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .comment-respond.style-2 .comment-respond-wrapper {
+    padding: 53px 0 60px 70px;
+  }
+}
 @media (max-width: 767px) {
   .comment-respond.style-2 .comment-respond-wrapper {
     padding: 40px;
@@ -10704,6 +10719,11 @@ ul.children {
     padding-bottom: 100px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-1 .about-info-card.style-1 {
+    margin-top: 60px;
+  }
+}
 
 .cta-area {
   padding-top: 180px;
@@ -10721,6 +10741,7 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta-area {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 .cta-area .overlay {
@@ -10752,6 +10773,7 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta-area .counter-area .counter-card {
     padding: 44px;
+    float: left;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10893,6 +10915,11 @@ ul.children {
 }
 .contact-area .section-title {
   margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-area .section-title .sec-desc br {
+    display: none;
+  }
 }
 .contact-area .comment-respond.style-2 .contacts-email,
 .contact-area .comment-respond.style-2 .contacts-name,

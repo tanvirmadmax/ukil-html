@@ -7,6 +7,12 @@
     top: 0;
     @include transition;
 
+    @include lg{
+        padding: 40px 30px;
+    }
+    @include md{
+        padding: 40px 30px;
+    }
     @include sm {
         padding: 50px 40px;
     }
