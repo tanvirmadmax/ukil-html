@@ -10736,6 +10736,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .cta-area {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10773,6 +10774,11 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta-area .counter-area .counter-card {
     padding: 44px;
+    float: left;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .cta-area .counter-area .counter-card {
     float: left;
   }
 }
