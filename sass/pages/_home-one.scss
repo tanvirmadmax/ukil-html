@@ -51,7 +51,7 @@
     background-position: center center;
     position: relative;
     padding-top: 110px;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
     overflow: hidden;
     z-index: 2;
 
@@ -131,8 +131,8 @@
 // About Us Area
 .about-us-area {
   &.style-1 {
-    padding-top: 125px;
-    padding-bottom: 150px;
+    padding-top: 140px;
+    padding-bottom: 140px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 170%;
@@ -147,6 +147,9 @@
     }
     .about-info-card{
       &.style-1{
+        @include sm{
+          margin-top: 40px;
+        }
         @include md{
           margin-top: 60px;
         }
@@ -157,7 +160,7 @@
 
 // Call To Action
 .cta-area {
-  padding-top: 180px;
+  padding-top: 140px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -222,9 +225,8 @@
 
 // Feature Area
 .feature-area {
-
   &.style-1 {
-    padding-top: 153px;
+    padding-top: 140px;
     padding-bottom: 140px;
     position: relative;
 
@@ -279,13 +281,16 @@
 // Portfolio Area
 .portfolio-area {
   &.style-1 {
-    padding: 120px 0;
+    padding: 140px 0;
 
     @include sm {
       padding: 80px 0;
     }
     @include md {
       padding: 100px 0;
+    }
+    @include lg {
+      padding: 120px 0;
     }
 
     .title {
@@ -295,10 +300,7 @@
       color: $white;
     }
     .section-title {
-      @include sm {
-        margin-bottom: 60px;
-      }
-      @include md {
+      @include rmaxwd(991) {
         margin-bottom: 60px;
       }
     }
@@ -322,9 +324,6 @@
   }
   @include md {
     padding-bottom: 100px;
-  }
-  @include lg {
-    padding-bottom: 120px;
   }
   .contact-image-bg {
     position: absolute;

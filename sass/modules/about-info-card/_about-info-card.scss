@@ -2,7 +2,7 @@
   &.style-1 {
     margin-top: 40px;
 
-    @include rmaxwd(1399) {
+    @include rmaxwd(1700) {
       margin-top: 0;
     }
   }
