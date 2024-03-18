@@ -10780,6 +10780,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .cta-area .counter-area .counter-card {
     float: left;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
