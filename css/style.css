@@ -11074,7 +11074,7 @@ ul.children {
 }
 
 .portfolio-bg-area {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 324px;
   position: relative;
   z-index: 1;
@@ -11203,7 +11203,7 @@ ul.children {
 }
 
 .company-history-area {
-  padding-bottom: 247px;
+  padding-bottom: 140px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .company-history-area {
@@ -11217,7 +11217,7 @@ ul.children {
 }
 
 .faq-area.style-1 {
-  padding-bottom: 246px;
+  padding-bottom: 190px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area.style-1 {
@@ -11261,7 +11261,7 @@ ul.children {
 }
 
 .latest-posts-area.style-2 {
-  padding: 120px 0;
+  padding: 140px 0;
   background-color: #FAF8F7;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11284,8 +11284,8 @@ ul.children {
 }
 
 .testimonial-slider-area.style-2 {
-  padding-top: 100px;
-  padding-bottom: 174px;
+  padding-top: 120px;
+  padding-bottom: 140px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-slider-area.style-2 {

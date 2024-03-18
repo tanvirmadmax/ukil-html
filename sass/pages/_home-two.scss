@@ -118,7 +118,7 @@
 
 // Portfolio Area
 .portfolio-bg-area {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 324px;
   position: relative;
   z-index: 1;
@@ -246,7 +246,7 @@
 
 // Company History Area
 .company-history-area {
-  padding-bottom: 247px;
+  padding-bottom: 140px;
 
   @include sm {
     padding-bottom: 100px;
@@ -259,7 +259,7 @@
 // FAQ Area
 .faq-area {
   &.style-1 {
-    padding-bottom: 246px;
+    padding-bottom: 190px;
 
     @include sm {
       padding-bottom: 100px;
@@ -306,7 +306,7 @@
 // Latest Post Area
 .latest-posts-area {
   &.style-2 {
-    padding: 120px 0;
+    padding: 140px 0;
     background-color: #FAF8F7;
 
     @include sm {
