@@ -9613,6 +9613,9 @@ ul.children {
 .comment-respond p {
   margin: 0;
 }
+.comment-respond p .wpcf7-spinner {
+  position: absolute;
+}
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
 .comment-respond .single-input-field,
@@ -9749,7 +9752,7 @@ ul.children {
   color: #ffffff;
 }
 .comment-respond.style-2 .comment-respond-wrapper {
-  margin-left: 335px;
+  margin-left: 300px;
   padding: 53px 0 33px 70px;
   display: flex;
   flex-direction: column;
